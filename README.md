@@ -11,7 +11,7 @@ See this article for the technical details of the numerical method. In particula
 
 The roles of the source files and their relationships are explained below. 
 
-[Main programs for the numerical experiments]
+[Main programs for the numerical experiments in the article]
 
 Example 1 in the article
 - exA_FuncErrPlot_SymVG.m --- Program to plot the exact solutions and the errors of the numerical solutions for Example 1 (Figs. 4,5 in the article). This program uses function "LevyPDE_SolFunc_IIone.m" explained below. 
