@@ -12,9 +12,11 @@ See this article for the technical details of the numerical method.
 
 The roles of the source files and their relationships are explained below. 
 
-- LevyPDE_SolFunc_IIone.m 
+[Functions]
+- LevyPDE_SolFunc_IIone.m  ---   
   - DE_NFFT.m
   - SG_IndefInt_sym.m
+  - ContEulerFFFT.m
   
   
 
