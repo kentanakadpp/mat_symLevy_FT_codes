@@ -92,7 +92,7 @@ legend('t = 1', 't = 2', 't = 3');
 grid on;
 set(gca,'FontName','Times','FontSize',20,'FontWeight','bold'); 
 xlabel('x');
-ylabel('log_{10}(Max Error)');
+ylabel('log_{10}(Error)');
 title(['Errors for the NIG process (M = ', num2str(M),')']);
 commstr = strcat('print -depsc fig_NIG_error_xeplane.eps');
 eval(commstr);
