@@ -19,5 +19,7 @@ The roles of the source files and their relationships are explained below.
     - FFFT.m 
   - ContEulerFFFT.m --- Function to compute the inverse Fourier transform in Step 3 through the formula for the Fourier transform with continuous Euler transform and the fractional FFT. Thus, this function also uses the following file.
     - FFFT.m 
-- 
+- LevyPDE_SolFunc_IItwo.m --- Function to compute the numerical solutions using the same functions as LevyPDE_SolFunc_IIone.m. In this function, SG_IndefInt_sym.m is executed twice. 
+
+
 
