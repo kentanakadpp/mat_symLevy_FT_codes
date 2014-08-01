@@ -13,8 +13,11 @@ The roles of the source files and their relationships are explained below.
 
 [Main programs for the numerical experiments]
 
-Example 1
-- exA_FuncErrPlot_SymVG.m --- Program to plot the exam
+Example 1 in the article
+- exA_FuncErrPlot_SymVG.m --- Program to plot the exact solutions and the errors of the numerical solutions for Example 1 (Fig. 4,5 in the article). This program uses function "LevyPDE_SolFunc_IIone.m" explained below. 
+- exA_LevyProc_NumExp_SymVG.m --- Program to plot the maximum errors and the computational times of the numerical solutions for Example 1 (Fig. 6,7,8,9 in the article). This program also uses function "LevyPDE_SolFunc_IIone.m" explained below. 
+
+
 
 [Functions]
 - LevyPDE_SolFunc_IIone.m --- Function to compute the numerical solutions using the following functions as subroutines. In this function, SG_IndefInt_sym.m is executed once. 
