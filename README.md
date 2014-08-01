@@ -11,6 +11,10 @@ See this article for the technical details of the numerical method. In particula
 
 The roles of the source files and their relationships are explained below. 
 
+[Main programs for the numerical experiments]
+
+- exA_FuncErrPlot_SymVG.m 
+
 [Functions]
 - LevyPDE_SolFunc_IIone.m --- Function to compute the numerical solutions using the following functions as subroutines. In this function, SG_IndefInt_sym.m is executed once. 
   - DE_NFFT.m --- Function to compute the Fourier transform in Step 1 through the DE formula for the Fourier transforms and the nonuniform FFT. The DE transform is implemented in the following file.
