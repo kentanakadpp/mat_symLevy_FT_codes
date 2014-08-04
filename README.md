@@ -5,7 +5,7 @@ These are Matlab R2013a (8.1.0.604) codes for numerically solving the Kolmogorov
 
 "A fast and accurate numerical method for the symmetric L´evy processes 
  based on the Fourier transform and sinc-Gauss sampling formula"
-(http://arxiv.org/abs/ ).
+(http://arxiv.org/abs/1408.0157).
 
 See this article for the technical details of the numerical method. In particular, Steps 1, 2, and 3 below are explained in the article.  
 
